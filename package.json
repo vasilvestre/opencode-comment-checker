@@ -1,0 +1,44 @@
+{
+  "name": "@vasilvestre/opencode-comment-checker",
+  "version": "1.0.0",
+  "description": "Flags comments that add nothing after an edit, write, or patch in OpenCode v2.",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "comment",
+    "code-quality",
+    "ai-slop"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "vasilvestre",
+    "url": "https://github.com/vasilvestre"
+  },
+  "homepage": "https://github.com/vasilvestre/opencode-comment-checker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasilvestre/opencode-comment-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vasilvestre/opencode-comment-checker/issues"
+  },
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test index.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
