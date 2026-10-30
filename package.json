@@ -1,6 +1,6 @@
 {
   "name": "@vasilvestre/opencode-comment-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flags comments that add nothing after an edit, write, or patch in OpenCode v2.",
   "keywords": [
     "opencode",
