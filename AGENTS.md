@@ -10,15 +10,17 @@ After an `edit`, `write`, or `patch`, it scans the comments the tool added and
 appends a warning to the tool result when one only restates the code. The model
 reads the warning on its next turn and fixes it.
 
+The plugin is one file, `index.js`, with no build step and no dependency.
+
 ## Layout
 
 | Path | Role |
 | --- | --- |
 | `index.js` | the plugin, and the only runtime file |
 | `index.test.mjs` | 17 tests, `node:test`, no dependency |
-| `README.md` | public usage, rules, escape hatches, difference from omo |
 | `.github/workflows/ci.yml` | tests on pull request and push |
 | `.github/workflows/release.yml` | publishes on version bump |
+| `README.md` | public usage, rules, escape hatches, difference from omo |
 
 ## Hard rules
 
